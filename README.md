@@ -1,1 +1,3 @@
-##Dynamic Programming
+# Dynamic Programming
+**Identification:**
+DP is optimised recursion
