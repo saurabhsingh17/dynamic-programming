@@ -11,8 +11,8 @@ public class Main {
             int A[] = new int[n];
             for(int i = 0;i<n;i++)
                 A[i] = sc.nextInt();
-            Solution ob = new Solution();
-            System.out.println(ob.minDifference(A,n));
+//            Solution ob = new Solution();
+//            System.out.println(ob.minDifference(A,n));
         }
     }
 }
