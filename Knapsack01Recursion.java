@@ -16,12 +16,12 @@ class Knapsack01Recursion
     }
     //Function to return max value that can be put in knapsack of capacity W.
     public static void main(String[] args) {
-        int[] wt = {};
-        int[] val = {};
+        int[] wt = {4,5,1};
+        int[] val = {1,2,3};
         //no of elements
-        int n = 5;
+        int n = 3;
         //capacity
-        int W = 7;
+        int W = 4;
         System.out.println( Knapsack01(wt,val,W,n));
     }
 }
