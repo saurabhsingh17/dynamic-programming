@@ -84,6 +84,6 @@ public class Knapsack01TopDown {
 1. Subset Sum
 2. Equal Sum Partition
 3. Count of Subset sum
-4. Minimum subset off
+4. Minimum subset diff
 5. Target Sum
 6. "#" of subset c given d/f 
