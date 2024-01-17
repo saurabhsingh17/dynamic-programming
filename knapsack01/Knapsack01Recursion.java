@@ -1,4 +1,4 @@
-
+package knapsack01;
 
 class Knapsack01Recursion
 {

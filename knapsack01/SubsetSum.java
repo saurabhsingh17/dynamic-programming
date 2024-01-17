@@ -1,4 +1,4 @@
-//{ Driver Code Starts
+package knapsack01;//{ Driver Code Starts
 
 class SubsetSum {
     static boolean[][] dp = new boolean[101][10001];

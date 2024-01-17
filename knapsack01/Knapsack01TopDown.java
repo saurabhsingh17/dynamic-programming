@@ -1,3 +1,5 @@
+package knapsack01;
+
 public class Knapsack01TopDown {
     static int[][] dp = new int[1001][1001];
 

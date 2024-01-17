@@ -1,3 +1,5 @@
+package knapsack01;
+
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
         int sum = 0;

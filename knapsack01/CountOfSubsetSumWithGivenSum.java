@@ -1,3 +1,5 @@
+package knapsack01;
+
 public class CountOfSubsetSumWithGivenSum {
     static int perfectSum(int arr[], int N, int sum) {
         int mod = (int) 1e9 + 7;
