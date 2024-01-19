@@ -87,3 +87,20 @@ public class Knapsack01TopDown {
 4. Minimum subset diff
 5. Target Sum
 6. "#" of subset c given d/f 
+
+**Unbounded Knapsack**\
+It is similar to 0-1 Knapsack problem just that
+we can pick same item any no of times.
+
+**Code Change from 0-1 Knapsack**
+* Recursive: \
+  if(wt[n-1] <= W){
+  return Math.max(val[n-1] + knapsack01(wt,val,W-wt[n-1],n),  knapsack01(wt,val,W,n-1));
+  }
+* Memoized\
+  if(wt[n-1] <= W){
+  return dp[n][W] = Math.max(val[n-1]+recursiveApproach(n,W-wt[n-1],val,wt,dp),recursiveApproach(n-1,W,val,wt,dp));
+  }
+* TopDown \
+  if(wt[i-1]<=j)
+  dp[i][j] = Math.max(val[i-1]+dp[i][j-wt[i-1]],dp[i-1][j]);
