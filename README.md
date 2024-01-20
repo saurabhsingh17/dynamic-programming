@@ -176,3 +176,10 @@ public class LongestCommonSubstring {
         return max;
     }}
 ```
+![img.png](img.png)
+
+2. ShortestCommonSuperSequence:
+Super sequence means final string should contain both the sequence of string s1 and s2 .
+s1 = AGGTAB
+s2 = GXTXAYB
+result = AGGXTXAYB
